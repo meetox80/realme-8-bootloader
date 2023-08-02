@@ -131,6 +131,8 @@ Remember to uncheck:
 To return into android, use `fastboot reboot` in [Android Platform Tools](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
 <p align="center"><img src="https://i.imgur.com/66YOh6h.png"></p>
 
+<hr>
+
 # Special thanks
 
 > [Zako Chan](https://t.me/zakolakov106/) - Information about walkthrough with downgrade<br>
