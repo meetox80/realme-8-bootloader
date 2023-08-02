@@ -7,7 +7,7 @@
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
-- Currently unlocked 10+ devices with this method, message [lemonek](https://t.me/lemonekq/) to "validate" your device ;)
+- Currently unlocked 18+ devices with this method, message [lemonek](https://t.me/lemonekq/) to "validate" your device ;)
 
 <p align="center" style="color: red;">Use this tutorial only with RUI3</p>
 
@@ -121,12 +121,14 @@ Remember to uncheck:
 <p align="center"><img src="https://i.imgur.com/qu2DUDa.png"></p> <!-- Important sign -->
 <p align="center">Do this ONLY AFTER UPDATING to your desired RUI3 version (ex. RUI3)</p>
 <br>
+
 1. Read your lk file, using command `python mtk r lk lk.bin`, Go to BROM mode, after read it will be located in the same folder as your mtkclient.
+> Note: if `lk` isn't working, try reading `lk2`. same with writing.
 2. Open [Roger's website](https://lkpatcher.r0rt1z2.com/) for lk.img/lk.bin patching
 3. Choose your lk file, Upload it using another button
 4. It wil automatically download it, put the lk-patcher.bin file into mtkclient folder, flash it using command `python mtk w lk lk-patched.bin`
-5. To check if fastboot is avalible, use command `adb reboot bootloader` in [Android Platform Tools](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
-6. There should be a small string with `ok` on the ending of it, if there is something like this then you have successfully unlocked fastboot
+6. To check if fastboot is avalible, use command `adb reboot bootloader` in [Android Platform Tools](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
+7. There should be a small string with `ok` on the ending of it, if there is something like this then you have successfully unlocked fastboot
 
 To return into android, use `fastboot reboot` in [Android Platform Tools](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
 <p align="center"><img src="https://i.imgur.com/66YOh6h.png"></p>
