@@ -23,7 +23,7 @@
 - [Python from Microsoft Store](https://apps.microsoft.com/store/detail/python-310/9PJPW5LDXLZ5)
 - A functioning brain and a emotional support after the unlock
 
-# 2. Drivers - libusb-win32
+# 1. Drivers - libusb-win32
 1. Download [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) and install it
 2. Run [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) 
 3. Take actions at  [libusb-win32](https://sourceforge.net/projects/libusb-win32/files/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe/download) window, selecting install a device filter
@@ -34,7 +34,7 @@
    <p align="center"><img src="https://i.imgur.com/mMKRfRG.png"></p>
 7. After installing, **Leave your phone shut down**. We will get into the same state in downgrading to RUI2
 
-# 3. Downgrade to RUI2
+# 2. Downgrade to RUI2
 1. **Extract** and enter to the folder of [MTK Client archive](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip)
 2. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder, **a tip how to do it faster below**
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
@@ -68,7 +68,7 @@
 
 14. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
 
-# 4. Unlocking the bootloader - OFP Partitions
+# 3. Unlocking the bootloader - OFP Partitions
 1. Open the console in the [MTK Client's](https://github.com/bkerler/mtkclient/archive/refs/heads/main.zip) folder
 	1. Run the payload **again** by using command `python mtk payload`
 	2. Do what before:  Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
