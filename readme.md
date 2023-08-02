@@ -40,30 +40,39 @@
    <p align="center"><img src="https://i.imgur.com/J5VAWoy.png"></p>
 3. Run the payload by simply using command `python mtk payload`, It should look like this: 
    <p align="center"><img src="https://i.imgur.com/cASEARQ.png"></p>
-   If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
    
-4. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
-5. MTK Client should output something like this:
+   If there is any error with python, you dont have the libaries. get them using command `python -m pip install -r requirements.txt`
+
+<br>
+   
+5. Make sure your phone is powered off, Make sure your phone is connected to your computer, as it is: Hold down **Vol+, Vol-, and power button** - **(Don't leave the buttons until the bypass is done)**
+6. MTK Client should output something like this:
       <p align="center"><img src="https://i.imgur.com/KDp2u5O.png"></p>
    
-6. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
-7. Click on `Options > Option...`
-8. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
+7. Leave the phone alone in the BROM, Run the [SP Flash tool](https://drive.google.com/file/d/1sfsm3EXhIf8TrS5Y-En1mifgg8e9VjXl/view?usp=drive_link) [flash_tool.exe]
+8. Click on `Options > Option...`
+9. Make sure the right **COM Port** is selected, UART enabled and baud rate is set to 921600.
    <p align="center"><img src="https://i.imgur.com/C6n8awx.png"></p>
    
-9. Get [Haadi's A.24 RUI2 Firmware](https://drive.google.com/file/d/1OvT-YYBdJMBmV87C0f1ThcCKmvKvqvi7/view?usp=share_link) and unpack it
+10. Get [Haadi's A.24 RUI2 Firmware](https://drive.google.com/file/d/1OvT-YYBdJMBmV87C0f1ThcCKmvKvqvi7/view?usp=share_link) and unpack it
    
-10. Load scatter from Haadi's Firmware
+11. Load scatter from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
-<p align="center" style="color: red;">IMPORTANT: </p><p align="center">Remember to uncheck:<br>
-- opporeserve2 [Signed partition] <br><img src="https://i.imgur.com/sIiT7t8.png"><br><br>
-- cdt_engineering [Digital warranty codes] <br><img src="https://i.imgur.com/wfAfnCn.png">
-</p>
-11. Remember to have download only mode **Without authenticator**
+<div align="center">
+<p align="center"><img src="https://i.imgur.com/qu2DUDa.png"></p>
+Remember to uncheck:
+
+| opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
+| ------------------------------- | ---------------------------------------- |
+| <img src="https://i.imgur.com/sIiT7t8.png"> | <img src="https://i.imgur.com/wfAfnCn.png"> |
+
+<br>
+</div>
+11. Remember to have download only mode
     <p align="center"><img src="https://i.imgur.com/0xFJVuo.png"></p>
-12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click `Download`
+12. Place your phone on a stable surface, to not disconnect anything. This process will take up to 15-20 minutes, to get A.24 on your phone, click Download
     <p align="center"><img src="https://i.imgur.com/tJiKdLf.png"></p>
-13. If anything will not fail, it should look like this
+13. If anything wouldn't fail, it should look like this
     <p align="center"><img src="https://i.imgur.com/QhJ6fVi.png"></p>
 
 14. Before doing anything, remember to **WIPE down your phone for safety.** Hold down **Vol-, and power button**, In recovery select wipe data, and then **don't** select the option to retrieve contacts, etc. It will cause errors, select the clean wipe. **Act as you had RUI2 from the beggining LOL**
