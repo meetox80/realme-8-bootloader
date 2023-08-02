@@ -59,7 +59,7 @@
 11. Load scatter from Haadi's Firmware
     <p align="center"><img src="https://i.imgur.com/Tzavwau.png"></p>
 <div align="center">
-<p align="center"><img src="https://i.imgur.com/qu2DUDa.png"></p>
+<p align="center"><img src="https://i.imgur.com/qu2DUDa.png"></p> <!-- Important sign -->
 Remember to uncheck:
 
 | opporeserve2 [Signed partition] | cdt_engineering [Digital warranty codes] |
@@ -118,6 +118,9 @@ Remember to uncheck:
 <hr>
 
 # [BONUS] Getting fastboot via oplus-unlock
+<p align="center"><img src="https://i.imgur.com/qu2DUDa.png"></p> <!-- Important sign -->
+<p align="center">Do this ONLY AFTER UPDATING to your desired RUI3 version (ex. RUI3)</p>
+<br>
 1. Read your lk file, using command `python mtk r lk lk.bin`, Go to BROM mode, after read it will be located in the same folder as your mtkclient.
 2. Open [Roger's website](https://lkpatcher.r0rt1z2.com/) for lk.img/lk.bin patching
 3. Choose your lk file, Upload it using another button
