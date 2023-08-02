@@ -115,7 +115,7 @@
 <hr>
 
 # [BONUS] Getting fastboot via oplus-unlock
-Trying rewriting it to c# native, python not working on windows
+Work in progress, HowWof is rewriting it to golang.
 
 # Special thanks
 
