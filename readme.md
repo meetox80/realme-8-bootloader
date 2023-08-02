@@ -118,7 +118,15 @@ Remember to uncheck:
 <hr>
 
 # [BONUS] Getting fastboot via oplus-unlock
-Work in progress, HowWof is rewriting it to golang.
+1. Read your lk file, using command `python mtk r lk lk.bin`, Go to BROM mode, after read it will be located in the same folder as your mtkclient.
+2. Open [Roger's website](https://lkpatcher.r0rt1z2.com/) for lk.img/lk.bin patching
+3. Choose your lk file, Upload it using another button
+4. It wil automatically download it, put the lk-patcher.bin file into mtkclient folder, flash it using command `python mtk w lk lk-patched.bin`
+5. To check if fastboot is avalible, use command `adb reboot bootloader` in [Android Platform Tools](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
+6. There should be a small string with `ok` on the ending of it, if there is something like this then you have successfully unlocked fastboot
+
+To return into android, use `fastboot reboot` in [Android Platform Tools](https://dl.google.com/android/repository/platform-tools_r34.0.4-windows.zip)
+<p align="center"><img src="https://i.imgur.com/66YOh6h.png"></p>
 
 # Special thanks
 
