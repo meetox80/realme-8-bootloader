@@ -7,7 +7,6 @@
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
 - **Read this tutorial step by step to don't miss anything.**
 - This method doesn't use **Deep Test**
-- Currently unlocked 18+ devices with this method, message [lemonek](https://t.me/lemonekq/) to "validate" your device ;)
 
 <p align="center" style="color: red;">Use this tutorial only with RUI3</p>
 
