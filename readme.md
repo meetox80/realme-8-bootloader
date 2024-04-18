@@ -2,6 +2,9 @@
 	<img width="100%" src="https://i.ibb.co/1M3cwX8/banner.png">
 </p>
 
+> [!WARNING]
+> This guide still works, but isn't supported by me, i left this device.
+
 # Disclaimer
 
 - This method will **wipe your phone** and **temporarily downgrade your phone to RUI2**
